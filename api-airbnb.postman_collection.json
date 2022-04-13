@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "5e73716d-674f-41cf-8c27-bff5c741e868",
+		"name": "api-airbnb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "consultaAirbnb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/airbnb/all-properties",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"airbnb",
+						"all-properties"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TiposAirbnb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/airbnb/types",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"airbnb",
+						"types"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReviewsAirbnb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/airbnb/reviews",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"airbnb",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AirbnbCamas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/airbnb/beds/:nro_beds",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"airbnb",
+						"beds",
+						":nro_beds"
+					],
+					"variable": [
+						{
+							"key": "nro_beds",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
